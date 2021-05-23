@@ -13,18 +13,8 @@ public class MainApp {
 			sum = sum + i;
 		}
 		System.out.println("tong 100 so dau tien= "+sum);}
-		//12.2
-		Scanner sc = new Scanner(System.in);
-		{System.out.println("nhap vao so n= ");
-		int n = sc.nextInt();
-		int sum=0;
-		for(int i = 1;i<=n;i++) {
-			if (i%3==0) {
-				sum=sum+i;
-			}
-		}
-		System.out.println("tong cac so chia het cho 3 va be hon n =  "+sum);
-	}
+		
+
 		//12.2
 		Scanner sc = new Scanner(System.in);
 		{System.out.print("nhap vao so n= ");
